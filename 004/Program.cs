@@ -7,9 +7,13 @@ double B = Convert.ToDouble (Console.ReadLine ());
 
 if (A > B)
 {
-    Console.WriteLine (A + " = MAX; MIN = " + B);
+    Console.WriteLine ("MAX =" + A + "; MIN = " + B);
+}
+else if (A == B)
+{
+    Console.WriteLine (A + " = " + B);
 }
 else
 {
-    Console.WriteLine (B + " = MAX; MIN = " + A);
+    Console.WriteLine ("MAX =" + B + "; MIN = " + A);
 }
