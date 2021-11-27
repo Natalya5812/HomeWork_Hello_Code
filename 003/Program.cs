@@ -30,4 +30,9 @@ else if (dayofweek == 5)
  {
      Console.WriteLine ("Седьмой день недели - это Воскресенье");
      }  
+     else
+     {
+            Console.WriteLine ("Неподходящее значение");
+     }
+
 
